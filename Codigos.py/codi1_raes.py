@@ -7,14 +7,14 @@ import soundfile as sf
 
 T= 2.5                               # Durada de T segons
 fm=8000                              # Freqüència de mostratge en Hz
-fx=fm/2                               # Freqüència de la sinusoide
+fx=fm/2                              # Freqüència de la sinusoide
 A=4                                  # Amplitud de la sinusoide
 pi=np.pi                             # Valor del número pi
 L = int(fm * T)                      # Nombre de mostres del senyal digital
 Tm=1/fm                              # Període de mostratge
 t=Tm*np.arange(L)                    # Vector amb els valors de la variable temporal, de 0 a T
 x = A * np.cos(2 * pi * fx * t)      # Senyal sinusoidal
-sf.write('so1_raes.wav', x, fm)   # Escriptura del senyal a un fitxer en format wav
+sf.write('so1_raes.wav', x, fm)      # Escriptura del senyal a un fitxer en format wav
 
 Tx=1/fx                                   # Període del senyal
 Ls=int(fm*5*Tx)                           # Nombre de mostres corresponents a 5 períodes de la sinusoide

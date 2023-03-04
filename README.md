@@ -130,10 +130,15 @@ Proves i exercicis a fer i entregar
 3. Modifica el programa per representar el mòdul de la Transformada de Fourier en dB i l'eix d'abscisses en el marge de
     $0$ a $f_m/2$ en Hz.
 
+    <img src="img/F06_raes.png" width="360" align="left"> <img src="img/F07_raes.png" width="360" align="rigth">
+
     - Comprova que la mesura de freqüència es correspon amb la freqüència de la sinusoide que has fet servir.
+
+    >Si ho comproven mitjançant la formula $f o = \frac{k}{N} f_m$ podem concloure que si correspon la frequencia ques mesura amb la frequencia de la sinusoide que es fa servir.
 
     - Com pots identificar l'amplitud de la sinusoide a partir de la representació de la transformada?
       Comprova-ho amb el senyal generat.
+    >No ho podem calcular, ja que el valor màxim que ens tenim a la gràfica ens dona com a resultat 1.
 
 > NOTES:
 >
@@ -145,7 +150,7 @@ Proves i exercicis a fer i entregar
 >
 > $f_k = \frac{k}{N} f_m$
 
-4. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
+1. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
     Llegeix el fitxer d'àudio i comprova:
 
     - Freqüència de mostratge.

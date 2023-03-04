@@ -29,7 +29,7 @@ plt.title('5 periodes de la sinusoide')   # Títol del gràfic
 plt.show()                                # Visualització de l'objecte gràfic.
 sd.play(x,fm)
 
-N=5000                        # Dimensió de la transformada discreta
+N=4000                        # Dimensió de la transformada discreta
 X=fft(x[0 : Ls], N)           # Càlcul de la transformada de 5 períodes de la sinusoide
 k=np.arange(N)                # Vector amb els valors 0≤  k<N
 X_dB = 20*np.log10(np.abs(X)/max(np.abs(X)))

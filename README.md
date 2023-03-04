@@ -150,7 +150,7 @@ Proves i exercicis a fer i entregar
 >
 > $f_k = \frac{k}{N} f_m$
 
-1. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
+4. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
     Llegeix el fitxer d'àudio i comprova:
 
     - Freqüència de mostratge.

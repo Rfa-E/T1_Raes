@@ -103,8 +103,15 @@ plt.show()                            # Per mostrar els grafics
 Proves i exercicis a fer i entregar
 -----------------------------------
 
-1. Reprodueix l'exemple fent servir diferents freqüències per la sinusoide. Al menys considera $f_x = 4$ kHz, a banda d'una
-    freqüència pròpia en el marge audible. Comenta els resultats.
+1. Reprodueix l'exemple fent servir diferents freqüències per la sinusoide. Al menys considera $f_x = 4$ kHz, a banda d'una freqüència pròpia en el marge audible. Comenta els resultats.
+
+    <img src="img/F01_raes.png" width="480" align="center"> 
+
+- Considerant utilitzar una freqüència de $F_x = 4$ $KHz$, podem observar que el so que obtenim és un to més agut que l'original. A la gràfica es veu representat en forma d'ona triangular, a diferència de l'ona sinusoïdal d'origen.
+
+    <img src="img/F02_raes.png" width="480" align="center">
+
+- En fer el domini transformat de l'ona amb un fft, podem observar que al mòdul tenim un màxim de 2500 mostres.
 
 2. Modifica el programa per considerar com a senyal a analitzar el senyal del fitxer wav que has creat 
     (`x_r, fm = sf.read('nom_fitxer.wav')`).

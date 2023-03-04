@@ -138,7 +138,7 @@ Proves i exercicis a fer i entregar
 
     - Com pots identificar l'amplitud de la sinusoide a partir de la representació de la transformada?
       Comprova-ho amb el senyal generat.
-    >No ho podem calcular, ja que el valor màxim que ens tenim a la gràfica ens dona com a resultat 1.
+    >No ho podem calcular, ja que el valor màxim que tenim a la gràfica ens dona com a resultat 1.
 
 > NOTES:
 >
@@ -150,7 +150,7 @@ Proves i exercicis a fer i entregar
 >
 > $f_k = \frac{k}{N} f_m$
 
-4. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
+1. Tria un fitxer d'àudio en format wav i mono (el pots aconseguir si en tens amb altres formats amb el programa Audacity). 
     Llegeix el fitxer d'àudio i comprova:
 
     - Freqüència de mostratge.

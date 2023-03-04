@@ -107,15 +107,13 @@ Proves i exercicis a fer i entregar
 
     <img src="img/F01_raes.png" width="480" align="center"> 
 
-    ```
-    Considerant utilitzar una freqüència de $F_x = 4$ $KHz$, podem observar que el so que obtenim és un to més agut que l'original. A la gràfica es veu representat en forma d'ona triangular, a diferència de l'ona sinusoïdal d'origen.
-    ```
+    >Considerant utilitzar una freqüència de $F_x = 4$ $KHz$, podem observar que el so que obtenim és un to més agut que l'original. A la gràfica es veu representat en forma d'ona triangular, a diferència de l'ona sinusoïdal d'origen.
+    
 
     <img src="img/F02_raes.png" width="480" align="center">
 
-    ```
-    En fer el domini transformat de l'ona amb un FFT, podem observar que al mòdul tenim un màxim de 2500 mostres.
-    ```
+    >En fer el domini transformat de l'ona amb un FFT, podem observar que al mòdul tenim un màxim de 2500 mostres.
+    
 
 1. Modifica el programa per considerar com a senyal a analitzar el senyal del fitxer wav que has creat 
     (`x_r, fm = sf.read('nom_fitxer.wav')`).
@@ -126,9 +124,8 @@ Proves i exercicis a fer i entregar
 
     - Explica el resultat del apartat anterior.
 
-    ```
-    Com hem utilitzat la freqüència de l'apartat anterior $F_x = 4$ $KHz$, podem observar la mateixa representació de l'ona triangular en 5 períodes del senyal. En el cas del domini transformat, en fer la FFT observem que tenim els mateixos valors a la representació del mòdul, amb un valor màxim centrat en 2500 mostres. Però en el cas de la fase tenim una diferència gràfica, tot i que l'atenuació del senyal també sigui en -15 dB.
-    ```
+    >Com hem utilitzat la freqüència de l'apartat anterior $F_x = 4$ $KHz$, podem observar la mateixa representació de l'ona triangular en 5 períodes del senyal. En el cas del domini transformat, en fer la FFT observem que tenim els mateixos valors a la representació del mòdul, amb un valor màxim centrat en 2500 mostres. Però en el cas de la fase tenim una diferència gràfica, tot i que l'atenuació del senyal també sigui en -15 dB.
+
 
 2. Modifica el programa per representar el mòdul de la Transformada de Fourier en dB i l'eix d'abscisses en el marge de
     $0$ a $f_m/2$ en Hz.
